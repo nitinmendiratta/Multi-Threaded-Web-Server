@@ -12,8 +12,11 @@ To Compile myhttpd-: g++ -w myhttpd.cpp -lpthread
 To Run-: ./a.out
 
 Modify the execute file according to :
+
   myhttpd [−d] [−h] [−l file] [−p port] [−r dir] [−t time] [−n threadnum] [−s sched]
+  
   −d : Enter debugging mode. That is, do not daemonize, only accept one connection at a time and enable logging to stdout. Without this option, the web server should run as a daemon process in the background.
+  
   −h : Print a usage summary with all options and exit
   −l file : Log all requests to the given file. See LOGGING for details     
   −p port : Listen on the given port. If not provided, myhttpd will listen on port 8080
