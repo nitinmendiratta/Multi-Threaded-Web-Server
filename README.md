@@ -8,6 +8,7 @@ myhttpd
 A Multi-threaded web server that allows queuing and scheduling of various HTTP requests according to FCFS and SJF scheduling policies, along with synchronization to prevent race conditions and thread pool to facilitate multithreading
 
 To Compile myhttpd-: g++ -w myhttpd.cpp -lpthread
+
 To Run-: ./a.out
 
 Modify the execute file according to :
